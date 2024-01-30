@@ -20,6 +20,6 @@ state-of-the-art models.
 - Upload Code
 
 ## Dataset
-you can found refGAN dataset at this [link](https://drive.google.com/drive/folders/1-Kla9VVWDnor3QZ91QHRTXNCvDIysq8c?usp=sharing)
+you can find refGAN dataset at this [link](https://drive.google.com/drive/folders/1-Kla9VVWDnor3QZ91QHRTXNCvDIysq8c?usp=sharing)
 
 ## Quick Start
