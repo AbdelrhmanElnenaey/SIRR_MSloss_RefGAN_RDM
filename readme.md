@@ -16,8 +16,8 @@ real-world datasets showing that our model outperforms other
 state-of-the-art models.
 
 ### To Do List
-- Upload refGAN Dataset
-- Upload Code
+- refGAN Dataset
+- Code
 
 ## Dataset
 you can find refGAN dataset at this [link](https://drive.google.com/drive/folders/1-Kla9VVWDnor3QZ91QHRTXNCvDIysq8c?usp=sharing)
