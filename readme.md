@@ -1,25 +1,12 @@
-# Utilizing Ranged Depth Map for Single Image Reflection Removal With Multi-Step Loss
+# Utilizing Multi-Step Loss for Single Image Reflection Removal
 ## Description
-Image reflection removal is a crucial task in restoring image
-quality. Distorted images impact many tasks such as object
-detection and image segmentation. In this paper, we present
-an approach for image reflection removal using a single im-
-age. This approach depends on the intuition that an estimated
-depth map of the ambient image –images with reflection–
-does not have estimations for the reflections. We estimate the
-depth map and compute a ranged depth map, where we use as
-an auxiliary feature for our model. We also employ multi-step
-loss during training which proved a significant enhancement
-in the results. Our network uses only the ambient image for
-training. We tested our model on SIR2 benchmark and other
-real-world datasets showing that our model outperforms other
-state-of-the-art models.
+Image reflection removal is crucial for restoring image quality. Distorted images can negatively impact tasks like object detection and image segmentation. In this paper, we present a novel approach for image reflection removal using a single image. Instead of focusing on model architecture, we introduce a new training technique that can be generalized to image-to-image problems, with input and output being similar in nature. This technique is embodied in our multi-step loss mechanism, which has proven effective in the reflection removal task. Additionally, we address the scarcity of reflection removal training data by synthesizing a high-quality, non-linear synthetic dataset called RefGAN using Pix2Pix GAN. This dataset significantly enhances the model's ability to learn better patterns for reflection removal. We also utilize a ranged depth map, extracted from the depth estimation of the ambient image, as an auxiliary feature, leveraging its property of lacking depth estimations for reflections. Our approach demonstrates superior performance on the SIR^2 benchmark and other real-world datasets, proving its effectiveness by outperforming other state-of-the-art models.
 
 ### To Do List
-- refGAN Dataset
+- RefGAN Dataset
 - Code
 
 ## Dataset
-you can find refGAN dataset at this [link](https://drive.google.com/drive/folders/1-Kla9VVWDnor3QZ91QHRTXNCvDIysq8c?usp=sharing)
+You can find RefGAN dataset at this [link](https://drive.google.com/drive/folders/1-Kla9VVWDnor3QZ91QHRTXNCvDIysq8c?usp=sharing)
 
 ## Quick Start
